@@ -1,0 +1,41 @@
+# Italian translations for com.github.linuxhubit.shouldidoit package.
+# Copyright (C) 2020 THE com.github.linuxhubit.shouldidoit'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.linuxhubit.shouldidoit package.
+# Mirko Brombin <send@mirko.pm>, 2020
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.linuxhubit.shouldidoit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-02 17:00+0200\n"
+"PO-Revision-Date: 2020-05-01 18:11+0200\n"
+"Last-Translator: Mirko Brombin <send@mirko.pm>\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. create main box
+#. create elements for answer data
+#: src/MainWindow.vala:63
+msgid "Yes"
+msgstr "Si"
+
+#: src/MainWindow.vala:66 src/MainWindow.vala:116
+msgid "You should do it!"
+msgstr "Dovresti farlo!"
+
+#: src/MainWindow.vala:109
+msgid "No 👎🏼"
+msgstr "No 👎🏼"
+
+#: src/MainWindow.vala:110
+msgid "You shouldn't do it!"
+msgstr "Non dovresti farlo!"
+
+#: src/MainWindow.vala:115
+msgid "Yes 👍🏼"
+msgstr "Si 👍🏼"

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Cat Facts
+GenericName=cat
+Comment=Find cat facts
+Exec=com.github.linuxhubit.catfacts %U
+Icon=com.github.linuxhubit.catfacts
+Terminal=false
+Categories=Education;
+Keywords=facts;

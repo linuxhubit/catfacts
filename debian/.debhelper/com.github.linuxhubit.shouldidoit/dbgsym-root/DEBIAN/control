@@ -1,0 +1,13 @@
+Package: com.github.linuxhubit.shouldidoit-dbgsym
+Package-Type: ddeb
+Source: com.github.linuxhubit.shouldidoit
+Version: 1.1.4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Mirko Brombin <send@mirko.pm>
+Installed-Size: 51
+Depends: com.github.linuxhubit.shouldidoit (= 1.1.4)
+Section: debug
+Priority: optional
+Description: debug symbols for com.github.linuxhubit.shouldidoit
+Build-Ids: 90a813f2c92925111619b699bfe675bd8a234a2b

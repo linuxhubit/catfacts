@@ -1,0 +1,15 @@
+Source: com.github.linuxhubit.shouldidoit
+Section: utils
+Priority: optional
+Maintainer: Mirko Brombin <send@mirko.pm>
+Build-Depends: meson,
+               debhelper (>= 9),
+               libgtk-3-dev,
+               valac (>= 0.26)
+
+Standards-Version: 3.9.6
+Package: com.github.linuxhubit.shouldidoit
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: dpkg (>= 1.15.6)
+Description: Should I do It
