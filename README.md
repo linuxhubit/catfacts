@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/linuxhubit/catfacts/master/data/icons/64/com.github.linuxhubit.shouldidoit.svg" width="64">
+  <img src="https://raw.githubusercontent.com/linuxhubit/catfacts/master/data/icons/64/com.github.linuxhubit.catfacts.svg" width="64">
   <h1 align="center">Cat Facts</h1>
   <p align="center">Find cat facts</p>
 </div>
@@ -28,7 +28,7 @@ com.github.linuxhubit.catfacts
 
 ### From AppCenter
 Not published.
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.linuxhubit/shouldidoit)
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.linuxhubit/catfacts)
 
 
 ### From .deb package
