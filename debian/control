@@ -14,4 +14,4 @@ Package: com.github.linuxhubit.catfacts
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
-Description: Should I do It
+Description: Cat Facts
