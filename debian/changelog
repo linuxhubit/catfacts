@@ -1,7 +1,6 @@
-com.github.linuxhubit.catfacts (1.2.3) UNSTABLE; urgency=low
+com.github.linuxhubit.catfacts (1.2.4) UNSTABLE; urgency=low
 
-  * New icons
-  * Removed dotfiles for debhelper
-  * Bump to 1.2.3 release for AppCenter submit
+  * Fix OARS Social Info value
+  * Bump to 1.2.4 release for AppCenter submit
 
- -- Mirko Brombin <send@mirko.pm>  Sat, 2 May 2020 20:25:00 +0000
+ -- Mirko Brombin <send@mirko.pm>  Sat, 9 May 2020 07:30:00 +0000
