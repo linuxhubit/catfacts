@@ -37,11 +37,16 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
         css_provider = new Gtk.CssProvider ();
 
         // custom style
-        css_provider.load_from_data(""
-            + ".box {margin: 0 20px 30px;}"
-            + ".titlebar, .background { background-color: #89b2d3; color: #ffffff; border: none; text-shadow: 1px 1px #648baa;}"
-            + ".fact_text { font-size: 22px; margin-top: 5px;}"
-        );
+        try {
+            css_provider.load_from_data(""
+                + ".box {margin: 0 20px 30px;}"
+                + ".titlebar, .background { background-color: #89b2d3; color: #ffffff; border: none; text-shadow: 1px 1px #648baa;}"
+                + ".fact_text { font-size: 22px; margin-top: 5px;}"
+            );
+        }
+        catch (GLib.Error e) {
+            error (e.message);
+        }
 
         Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_USER);
 
@@ -104,7 +109,12 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
             fact_text.set_text ("API limit exeeded.");
             return;
         }
-        parser.load_from_data ((string) message.response_body.flatten ().data, -1);
+        try {
+            parser.load_from_data ((string) message.response_body.flatten ().data, -1);
+        }
+        catch(GLib.Error e) {
+            error (e.message);
+        }
         var root_array = parser.get_root ().get_object ();
 
         fact_text.set_text (root_array.get_string_member ("text"));
