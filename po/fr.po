@@ -1,0 +1,30 @@
+# French translations for com.github.linuxhubit.catfacts package.
+# Copyright (C) 2020 THE com.github.linuxhubit.catfacts'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.linuxhubit.catfacts package.
+# Nathan Bonnemains (@NathanBnm), 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.linuxhubit.catfacts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-30 12:58+0200\n"
+"PO-Revision-Date: 2020-05-30 12:52+0200\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/Constants.vala:24
+msgid "Fun Fact"
+msgstr "Faits sur les chats"
+
+#: src/Constants.vala:25
+msgid "Discover fan facts"
+msgstr "Découvrez des faits sur les chats"
+
+#: src/MainWindow.vala:67
+msgid "Cats are so cool!"
+msgstr "Les chats sont trop cools !"
