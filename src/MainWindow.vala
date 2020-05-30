@@ -47,6 +47,7 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
 
         // create refresh button
         var refresh_button = new Gtk.Button.from_icon_name ("view-refresh-symbolic");
+        refresh_button.set_tooltip_text(_("Refresh"));
 
         refresh_button.clicked.connect (() => {
             get_random_fact ();
