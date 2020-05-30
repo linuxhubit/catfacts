@@ -1,0 +1,52 @@
+# French translations for extra package.
+# Copyright (C) 2020 THE extra'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# Nathan Bonnemains (@NathanBnm), 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-30 12:58+0200\n"
+"PO-Revision-Date: 2020-05-30 12:52+0200\n"
+"Last-Translator: Nathan Bonnemains (@NathanBnm)\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:4
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:7
+msgid "Cat Facts"
+msgstr "Faits sur les chats"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:5
+msgid "cat"
+msgstr "chat"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:6
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:8
+msgid "Find cat facts"
+msgstr "Découvrez des faits sur les chats"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:8
+msgid "com.github.linuxhubit.catfacts"
+msgstr "com.github.linuxhubit.catfacts"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:11
+msgid "facts;"
+msgstr "faits;"
+
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:10
+msgid "An application that helps you finding cat facts"
+msgstr "Une application qui vous fait découvrir des faits sur les chats"
+
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:18
+msgid "First release"
+msgstr "Première version"
+
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:58
+msgid "Mirko Brombin"
+msgstr "Mirko Brombin"
