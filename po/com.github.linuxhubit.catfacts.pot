@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.linuxhubit.catfacts\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-02 23:17+0200\n"
+"POT-Creation-Date: 2020-05-30 12:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. create elements for answer data
+#: src/Constants.vala:24
+msgid "Fun Fact"
+msgstr ""
+
+#: src/Constants.vala:25
+msgid "Discover fan facts"
+msgstr ""
+
 #: src/MainWindow.vala:67
 msgid "Cats are so cool!"
 msgstr ""
