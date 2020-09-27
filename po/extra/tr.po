@@ -1,0 +1,52 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+#
+# Safak <bjksafak45@gmail.com>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-30 12:58+0200\n"
+"PO-Revision-Date: 2020-09-26 12:56+0300\n"
+"Last-Translator: Safak <bjksafak45@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:4
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:7
+msgid "Cat Facts"
+msgstr "Cat Facts"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:5
+msgid "cat"
+msgstr "kedi"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:6
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:8
+msgid "Find cat facts"
+msgstr "Find cat facts"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:8
+msgid "com.github.linuxhubit.catfacts"
+msgstr "com.github.linuxhubit.catfacts"
+
+#: data/com.github.linuxhubit.catfacts.desktop.in:11
+msgid "facts;"
+msgstr "Gerçekler;"
+
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:10
+msgid "An application that helps you finding cat facts"
+msgstr "Kedi gerçeklerini bulmanıza yardımcı olan bir uygulama"
+
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:18
+msgid "First release"
+msgstr "İlk sürüm"
+
+#: data/com.github.linuxhubit.catfacts.appdata.xml.in:58
+msgid "Mirko Brombin"
+msgstr "Mirko Brombin"
