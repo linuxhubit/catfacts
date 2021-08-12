@@ -1,7 +1,7 @@
 app-id: com.github.linuxhubit.catfacts
 
 runtime: io.elementary.Platform
-runtime-version: 'daily'
+runtime-version: '6'
 sdk: io.elementary.Sdk
 
 command: com.github.linuxhubit.catfacts
@@ -11,6 +11,7 @@ finish-args:
   - '--share=network'
   - '--socket=fallback-x11'
   - '--socket=wayland'
+  - '--socket=session-bus'
 
 modules:
   - name: catfacts
