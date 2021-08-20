@@ -24,7 +24,19 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
     private Gtk.Label fact_text;
     private Gtk.Box main;
     private Gtk.CssProvider css_provider;
-
+    private string[] offline_facts = new string[] {
+        "70% of your cat's life is spent asleep.",
+        "Both humans and cats have identical regions in the brain responsible for emotion.",
+        "In an average year, cat owners in the United States spend over $2 billion on cat food.",
+        "Tigers are excellent swimmers and do not avoid water.",
+        "Approximately 1/3 of cat owners think their pets are able to read their minds.",
+        "The first true cats came into existence about 12 million years ago and were the Proailurus.",
+        "Normal body temperature for a cat is 102 degrees F.",
+        "Most cats had short hair until about 100 years ago, when it became fashionable to own cats and experiment with breeding.",
+        "The technical term for a cat’s hairball is a bezoar.",
+        "Cats must have fat in their diet because they can't produce it on their own.",
+        "The Cat Fanciers Association (CFA) recognizes 44 breeds of cats."
+    };
     construct
     {
         get_style_context ().add_class ("rounded");
@@ -107,7 +119,8 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
         session.send_message (message);
         if(message.status_code != 200)
         {
-            fact_text.set_text ("API limit exeeded.");
+            int rnd = Random.int_range (0, offline_facts.length);
+            fact_text.set_text (offline_facts[rnd]);
             return;
         }
         try {
