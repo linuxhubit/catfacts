@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (c) 2017 Adam Bieńkowski (https://github.com/donadigo/eddy) -->
 <component type="desktop">
   <id>com.github.linuxhubit.catfacts</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -13,9 +12,13 @@
     <binary>com.github.linuxhubit.catfacts</binary>
   </provides>
   <releases>
-      <release version="1.0.0" date="2020-05-01">
+      <release version="1.2.6" date="2021-08-20">
         <description>
-          <p>First release</p>
+          <ul>
+            <li>Using new API provider for facts</li>
+            <li>Provide offline facts</li>
+            <li>Fix window decorations</li>
+          </ul>
         </description>
       </release>
   </releases>

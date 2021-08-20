@@ -1,6 +1,7 @@
-com.github.linuxhubit.catfacts (1.2.4) UNSTABLE; urgency=low
+com.github.linuxhubit.catfacts (1.2.6) UNSTABLE; urgency=low
 
-  * Fix OARS Social Info value
-  * Bump to 1.2.4 release for AppCenter submit
+  * Using new API provider for facts
+  * Provide offline facts
+  * Fix window decorations
 
- -- Mirko Brombin <send@mirko.pm>  Sat, 9 May 2020 07:30:00 +0000
+ -- Mirko Brombin <send@mirko.pm>  Fri, 20 Aug 2021 08:45:00 +0000
