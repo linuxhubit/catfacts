@@ -103,7 +103,7 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
         Soup.Message message;
         Json.Parser parser = new Json.Parser ();
 
-        message = new Soup.Message ("GET", "https://cat-fact.herokuapp.com/facts/random");
+        message = new Soup.Message ("GET", "https://catfact.ninja/facts?limit=1");
         session.send_message (message);
         if(message.status_code != 200)
         {
@@ -117,7 +117,7 @@ public class Funfact.MainWindow : Gtk.ApplicationWindow
             error (e.message);
         }
         var root_array = parser.get_root ().get_object ();
-
-        fact_text.set_text (root_array.get_string_member ("text"));
+        Json.Object fact = root_array.get_array_member ("data").get_object_element (0);
+        fact_text.set_text (fact.get_string_member ("fact"));
     }
 }
